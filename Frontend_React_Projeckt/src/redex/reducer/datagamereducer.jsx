@@ -33,8 +33,7 @@ export const datagamereducer = produce((state, action) => {
     case "ONLOADGAME":{state.listGame = action.payload}
       break;
 
-      // case "GETGAMEBYID": return {...state,selectedGame: action.payload,};
-      // break;
+  
 case "UPDATE_GAME": {
     const index = state.listGame.findIndex((game) => game._id === action.payload._id);
     if (index !== -1) {

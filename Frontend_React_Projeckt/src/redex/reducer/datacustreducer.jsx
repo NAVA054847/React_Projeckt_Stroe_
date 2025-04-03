@@ -10,8 +10,7 @@ export const mystore={
 
 export const datacustreducer=produce((state,action)=>{
  switch(action.type){
-// case "ADD_USER":{state.listCust.push(action.payload);}
-// break;
+
 
 case "GETCUST": {
      if (action.payload) {
