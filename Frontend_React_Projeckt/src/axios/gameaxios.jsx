@@ -20,6 +20,4 @@ export const updateGame = (game) => {
 export const getgamebycategoryid=(id)=>{
     return axios.get(`${url}/getbycategoryid/${id}`)
 }
-// export const getgamebyiddd=(id)=>{
-//     return axios.get(`${url}/getbyid/${id}`)
-// }
+

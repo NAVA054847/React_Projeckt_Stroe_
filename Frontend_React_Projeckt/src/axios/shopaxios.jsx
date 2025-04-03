@@ -12,4 +12,3 @@ return axios.get(`${url}/getbyid/${id}`)
 
 
 
-// export default addnewshop;
