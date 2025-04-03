@@ -40,9 +40,6 @@ export const Detailshop = () => {
                                 </h4>
                             </div>
                         </div>
-                        {/* <div className="card-footer bg-light text-center">
-                            <small className="text-muted">© {new Date().getFullYear()} כל הזכויות שמורות</small>
-                        </div> */}
                     </div>
                 </div>
             </div>
