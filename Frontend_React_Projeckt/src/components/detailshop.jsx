@@ -1,38 +1,3 @@
-// import { useSelector } from "react-redux"
-// import { useParams } from "react-router-dom"
-
-// export const Detailshop = () => {
-//     const idshop = useParams()
-//     const listshop = useSelector(x => x.datashopreducer.listshop)
-//     const obj = listshop.find(x => x._id == idshop._id)
-
-//     return <>
-//         <h1>פרטי קנייה</h1>
-//         <p>קוד  הקניה הוא: {idshop._id}</p>
-//         <p>קוד לקוח{ obj.codeCustomer}</p>
-//         <p>תאריך קניה{obj.date}</p>
-//         {obj.gameArr.map((x, i) => (
-//             <div key={i}>
-//                 <p>קוד שמחק{x.codeGame}</p>
-//                 <p> שם משחק{x.nameGame}</p>
-//                 <p>מחיר{x.price}</p>
-//                 <p>כמות{x.amount}</p>
-//                 <p>מחיר סופי{x.totalprice}</p>
-//                 {/* <p>{x._id}</p> */}
-//             </div>
-//         ))
-//         }
-//         <p>סכום לתשלום{obj.sum}</p>
-
-
-     
-
-
-
-//     </>
-// }
-
-
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 

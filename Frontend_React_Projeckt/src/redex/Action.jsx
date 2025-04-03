@@ -9,7 +9,6 @@ export const additemtocart = (item) => {
 }
 
 export const setcurrentuser=(item)=>{
-    // alert( "hello to: "+item.name+"your pass is: "+item.pass)
     return {type:"SETCURRENTUSER",payload:item}
 }
 
@@ -69,9 +68,7 @@ export const addshop=(item)=>{
 export const getshopsbycust=(item)=>{
     return {type:"GETSHOPBYCUST",payload:item}
 }
-// export const updatefcategory=(item)=>{
-// return{type:"UPDATEFCATEGORY",payload:item}
-// }
+
 
 export const update_category=(item)=>{
     debugger
